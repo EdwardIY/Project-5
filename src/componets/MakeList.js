@@ -1,7 +1,7 @@
 import useFetch from "./useFetch"
 
 function MakeList({url, numOfImgs, setUrl, setNumOfImgs, img}){
-    console.log(url)
+   
 const {data, error} = useFetch(url,numOfImgs);
 
 function loadMore(){
