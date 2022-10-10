@@ -15,7 +15,6 @@ function useFetch(url,numOfImgs){
         })
         .then((data)=>{
             if(data.photos.length){
-                console.log(data.photos)
                 setData(data.photos);
                 setError(false)
             }
